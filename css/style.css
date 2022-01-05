@@ -17,6 +17,10 @@ h3{
     font-weight: 400;
 }
 
+p{
+    color: dimgray;
+}
+
 .orange-color{
     color: orange;
 }
@@ -58,4 +62,52 @@ a{
     background: url(../images/dream-bg.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+
+/* experiencess start */
+
+.ex-para{
+    display: flex;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#left-side{
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+    
+    /* background:linear-gradient(lightsalmon,tomato); */
+}
+
+#right-side{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+    /* background:linear-gradient(lightsalmon,tomato); */
+}
+
+.ex-helf{
+    width: 40%;
+    margin-left: 60px;
+    height: 80%;
+    /* float: left; */
+    padding: 2% 4%;
+    box-shadow: 3px 3px 31px -2px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 3px 3px 31px -2px rgba(0,0,0,0.71);
+    -moz-box-shadow: 3px 3px 31px -2px rgba(0,0,0,0.71);
+
+}
+
+.text{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 100px;
+    font-size: 18px;
+    text-align: center;
 }
